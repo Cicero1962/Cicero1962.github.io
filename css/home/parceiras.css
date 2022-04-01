@@ -17,6 +17,19 @@
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 60px;
+}
+.lojas{
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
+}
+.lojas li:first-child,
+.lojas li:nth-child(5){
+    border-left:none ;
+}
+.lojas li:nth-child(n + 5){
+    border-top: 2px solid var(--cor-2);
+}
+.lojas img{
+    margin: auto;
 }
