@@ -1,0 +1,22 @@
+.lojas ul {
+    padding: 0 20px;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+}
+
+.lojas li {
+    display: flex;
+    padding: 32PX;
+    border-left: 2px solid var(--cor-2);
+}
+.lojas h2{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
