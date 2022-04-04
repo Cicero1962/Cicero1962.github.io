@@ -73,3 +73,15 @@
 .link:hover {
     color: var(--cor-0);
 }
+@media(max-width:1000px){
+    .tecnologia-imagem{
+        display: none;
+    }
+    .tecnologia-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .tecnologia-conteudo{
+        padding-top: 100px;
+    }
+}

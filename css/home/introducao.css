@@ -45,3 +45,22 @@
     line-height: 1.35;
     text-transform: uppercase;
 }
+@media(max-width:1000px){
+    .introducao-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+    .introducao{
+        box-shadow: none;
+    }
+    .introducao-conteudo{
+        padding-bottom: 60px;
+    }
+}
+@media(max-width:600px){
+    .introducao-container img{
+        display: none;
+    }
+}
+

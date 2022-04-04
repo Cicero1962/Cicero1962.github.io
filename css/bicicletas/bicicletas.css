@@ -46,3 +46,8 @@
     height: 100%;
     border-radius: 4px;
 }
+@media(max-width:1000px){
+  .bicicletas-lista{
+    padding-bottom: 60px;
+  }
+}
