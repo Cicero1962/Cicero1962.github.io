@@ -63,4 +63,20 @@
         display: none;
     }
 }
+@media(max-width:1200px){
+    .introducao h1{
+        font-size: 3rem;
+    }
+    .introducao p{
+        font-size: 1.125rem;
+    }
+}
+@media(max-width:800px){
+    .introducao h1{
+        font-size: 2rem;
+    }
+    .introducao p{
+        font-size: .875rem;
+    }
+}
 
